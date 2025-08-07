@@ -59,7 +59,7 @@ public class StudentManagementSystem {
         int searchId = 11114444;
         if (studentMap.containsKey(searchId)){
             Student found = studentMap.get(searchId);
-            System.out.println("\nStudent found for ID " + searchId + ": " + found);
+            System.out.println("\nStudent found for ID " + searchId + ": " + found.toString());
         }
         else {
             System.out.println("\nStudent with ID " + searchId + " not found.");
